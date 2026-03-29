@@ -4,6 +4,7 @@ import './globals.css';
 export const metadata: Metadata = {
   title: { default: 'ガジェットLAB', template: '%s | ガジェットLAB' },
   description: 'スマホ・PC・イヤホンなど最新ガジェットのレビューと比較情報',
+  verification: { google: 'xpdiFRYHloMJxfhCT-IMD08p5na4v9WUqvPY9OrDsHs' },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
