@@ -3,18 +3,17 @@ import './globals.css';
 
 export const metadata: Metadata = {
   title: 'ガジェットLAB | K-Beauty Portal',
-  description: 'ガジェット・スマホ周辺機器の最新情報',
+  description: 'ガジェット・スマホ周辺機器の最新比較ランキング',
   openGraph: {
     title: 'ガジェットLAB',
-    description: 'ガジェット・スマホ周辺機器の最新情報',
-    url: 'https://gadget-lab-jp.vercel.app',
+    description: 'ガジェット・スマホ周辺機器の最新比較ランキング',
     siteName: 'K-Beauty Portal',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'ガジェットLAB',
-    description: 'ガジェット・スマホ周辺機器の最新情報',
+    description: 'ガジェット・スマホ周辺機器の最新比較ランキング',
     site: '@beauty_note_j',
     creator: '@beauty_note_j',
   },
@@ -25,7 +24,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="ja">
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=DM+Mono:wght@400;500&family=Outfit:wght@300;400;500&display=swap" rel="stylesheet"/>
       </head>
       <body>{children}</body>
     </html>
