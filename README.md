@@ -1,2 +1,3 @@
 # gadget-lab-jp
-ガジェットLAB
+
+Updated: 2026-04-01
