@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gadget-lab-jp.vercel.app/sitemap.xml
+Sitemap: https://okuwabara07-gif.github.io/gadget-lab-jp/sitemap.xml
